@@ -1,1 +1,60 @@
-# chess-system-java
+# CHESS SYSTEM - JAVA
+
+:space_invader: **Chess Game Project - Made to traning some java skills and having some fun** :space_invader: </br> All topics, commits and steps will be detailed here:
+
+## First class: Position
+**Checklist:**
+ - Class Position [public]
+ - OOP Topics:
+   - Encapsulation
+   - Constructors
+   - ToString (Object / overriding)
+
+## Starting to implement Board and Piece
+**Checklist:**
+ - Classes Piece, Board [public]
+ - OOP Topics:
+   - Associations
+   - Encapsulation / Access Modifiers
+ - Data Structures Topics:
+   - Matrix
+
+## Chess layer and printing the board
+```
+                                               8 -  -  -  -  -  -  -  -
+                                               7 -  -  -  -  -  -  -  -
+                                               6 -  -  -  -  -  -  -  -
+                                               5 -  -  -  -  -  -  -  -
+                                               4 -  -  -  -  -  -  -  -
+                                               3 -  -  -  -  -  -  -  -
+                                               2 -  -  -  -  -  -  -  -
+                                               1 -  -  -  -  -  -  -  -
+                                                 a  b  c  d  e  f  g  h
+```
+</br>
+
+**Checklist:**
+ - Methods: Board.Piece(row, column) and Board.Piece(position)
+ - Enum Chess.Color
+ - Class Chess.ChessPiece [public]
+ - Class Chess.ChessMatch [public]
+ - Class ChessConsole.UI
+ - OOP Topics:
+   - Enumerations
+   - Encapsulation / Access Modifiers
+   - Inheritance
+   - Downcasting
+   - Static members
+   - Layers pattern
+ - Data Structures Topics:
+   - Matrix
+
+## Placing pieces on the board
+**Checklist:**
+ - Method: Board.PlacePiece(piece, position)
+ - Classes: Rook, King [public]
+ - Method: ChessMatch.InitialSetup
+ - OOP Topics:
+   - Inheritance
+   - Overriding
+   - Polymorphism (ToString)
