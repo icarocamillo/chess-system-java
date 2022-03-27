@@ -21,15 +21,15 @@
 
 ## Chess layer and printing the board
 ```
-                                               8 -  -  -  -  -  -  -  -
-                                               7 -  -  -  -  -  -  -  -
-                                               6 -  -  -  -  -  -  -  -
-                                               5 -  -  -  -  -  -  -  -
-                                               4 -  -  -  -  -  -  -  -
-                                               3 -  -  -  -  -  -  -  -
-                                               2 -  -  -  -  -  -  -  -
-                                               1 -  -  -  -  -  -  -  -
-                                                 a  b  c  d  e  f  g  h
+8 -  -  -  -  -  -  -  -
+7 -  -  -  -  -  -  -  -
+6 -  -  -  -  -  -  -  -
+5 -  -  -  -  -  -  -  -
+4 -  -  -  -  -  -  -  -
+3 -  -  -  -  -  -  -  -
+2 -  -  -  -  -  -  -  -
+1 -  -  -  -  -  -  -  -
+  a  b  c  d  e  f  g  h
 ```
 </br>
 
@@ -58,3 +58,12 @@
    - Inheritance
    - Overriding
    - Polymorphism (ToString)
+
+## BoardException and defensive programming
+**Checklist:**
+ - Class BoardException [public]
+ - Methods: Board.PositionExists, Board.ThereIsAPiece
+ - Implement defensive programming in Board methods
+ - OOP Topics:
+   - Exceptions
+   - Constructors (a string must be informed to the exception)
