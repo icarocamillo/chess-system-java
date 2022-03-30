@@ -113,3 +113,15 @@ System.out.flush();
 **Checklist:**
  - ChessException
  - InputMismatchException
+
+## Possible moves of a piece
+**Checklist:**
+ - Methods in Piece:
+   - PossibleMoves [abstract]
+   - PossibleMove
+   - IsThereAnyPossibleMove
+ - Basic PossibleMove implementation for Rook and King
+ - Update ChessMatch.ValidadeSourcePosition
+ - OOP Topics:
+   - Abstract method / class
+   - Exceptions
