@@ -125,3 +125,13 @@ System.out.flush();
  - OOP Topics:
    - Abstract method / class
    - Exceptions
+
+## Implementing possible moves of Rook
+**Checklist:**
+ - Method ChessPiece.IsThereOpponentPiece(position) [protected]
+ - Implement Rook.PossibleMoves
+ - Method ChessMatch.ValidateTargetPosition
+ - OOP Topics:
+   - Polymorphism
+   - Encapsulation / access modifiers [protected]
+   - Exceptions
