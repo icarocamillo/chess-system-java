@@ -195,3 +195,12 @@ System.out.flush();
    - Method TestCheck
    - Update PerformChessMove
  - Update UI.PrintMatch
+
+## Checkmate logic
+**Checklist:**
+ - Class ChessMatch:
+   - Property Checkmate [private set]
+   - Method TestCheckmate [private]
+   - Update PerformChessMove
+ - Update UI.PrintMatch
+ - Update Program logic
