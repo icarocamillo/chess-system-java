@@ -234,3 +234,12 @@ System.out.flush();
    - Encapsulation
    - Inheritance
    - Polymorphism
+
+## Knight
+**Checklist:**
+- Class Knight
+- Update ChessMatch.InitialSetup
+- OOP Topics:
+   - Encapsulation
+   - Inheritance
+   - Polymorphism
