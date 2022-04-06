@@ -237,9 +237,18 @@ System.out.flush();
 
 ## Knight
 **Checklist:**
-- Class Knight
-- Update ChessMatch.InitialSetup
-- OOP Topics:
+ - Class Knight
+ - Update ChessMatch.InitialSetup
+ - OOP Topics:
+   - Encapsulation
+   - Inheritance
+   - Polymorphism
+
+## Queen
+**Checklist:**
+ - Class Queen
+ - Update ChessMatch.InitialSetup
+ - OOP Topics:
    - Encapsulation
    - Inheritance
    - Polymorphism
