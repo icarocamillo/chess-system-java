@@ -252,3 +252,9 @@ System.out.flush();
    - Encapsulation
    - Inheritance
    - Polymorphism
+
+## Special move - Castling
+**Checklist:**
+ - Update King
+ - Update ChessMatch.MakeMove
+ - Update ChessMatch.UndoMove
