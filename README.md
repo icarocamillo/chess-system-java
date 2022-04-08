@@ -258,3 +258,20 @@ System.out.flush();
  - Update King
  - Update ChessMatch.MakeMove
  - Update ChessMatch.UndoMove
+
+## Special move - En Passant
+**Checklist:**
+ - Register a pawn which can be captured by en passant on next turn
+   - Property ChessMatch.EnPassantVulnerable
+   - Update ChessMatch.PerformChessMove
+ - Update Pawn.PossibleMoves
+ - Update ChessMatch.MakeMove
+ - Update ChessMatch.UndoMove
+ - Update ChessMatch.InitialSetup
+
+## Special move - Promotion
+**Checklist:**
+ - Property ChessMatch.Promoted
+ - Update ChessMatch.PerformChessMove
+ - Method ChessMatch.ReplacePromotedPiece
+ - Update Program logic
